@@ -319,7 +319,6 @@ function inicio() {
     <div class="hero">
       <div class="kicker">¿Por qué dossier empiezo?</div>
       <h1>Test de<span>nivel</span></h1>
-      <p class="lead">Contesta unas preguntas cortas y al terminar te diremos tu puntuación y <strong>por qué dossier te conviene empezar</strong>.</p>
     </div>
     <div class="levels" aria-label="Los cuatro dossieres">
       ${NIVELES.map((lv) => `<div class="lv c-${lv}"><b>${lv}</b><span>${esc(DOSSIER[lv].lema)}<small>${DOSSIER[lv].disponible ? "Dossier disponible" : "Próximamente"}</small></span></div>`).join("")}
